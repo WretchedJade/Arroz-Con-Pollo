@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.titulo{
+    display:flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    column-gap: 30px;
+}
+.recetario{
+    display: flex;
+    flex-direction: row;
+    margin-left: 42px;
+    justify-content: space-between;
+
+
+}
+img {
+    height: 400px;
+    width: 450px;
+    border-radius: 10%;
+}
+.receta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.receta p{
+    font-weight: 150;
+    max-width: 12cm
+
+}
+
+/* Formulario */
+header{
+display: flex;
+justify-content: center;
+border-style: groove;
+border-radius: 5%;
+background-color: beige
+
+}
+div h2{
+    display: flex;
+    justify-content: center;
+}
